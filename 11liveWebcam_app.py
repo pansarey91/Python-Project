@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 from PIL import ImageGrab
-
+# yes this code will be for the live web camera application
 def webcamrecoder():
     cap = cv2.VideoCapture(0)
     fourcc = cv2.VideoWriter_fourcc(*'XVID')
